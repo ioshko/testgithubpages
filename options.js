@@ -8,7 +8,7 @@ readOptions ();
 
 function setsaveButtonListener () {
 	$(document).on('click', '#saveButton', function () {
-		//alert('TEST');
+		alert('TEST');
 		saveOptions ();
     });
 }
